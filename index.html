@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rock, Paper, Scissors Game</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Rock Paper Scissors</h1>
+        </header>
+        <div class="score-board">
+            <div id="user-label" class="badge">User</div>
+            <div id="computer-label" class="badge">Computer</div>
+            <div id="score"><span id="user-score">0</span> : <span id="computer-score">0</span></div>
+        </div>
+        <div class="result"><p></p></div>
+        <div class="playing-area">
+            <div class="choices">
+                <div class="choice" id="rock">
+                    <img src="images/rock.svg" alt="rock">
+                    <p>ROCK</p>
+                </div>
+                <div class="choice" id="paper">
+                    <img src="images/paper.svg" alt="paper">
+                    <p>PAPER</p>
+                </div>
+                <div class="choice" id="scissors">
+                    <img src="images/scissors.svg" alt="scissors">
+                    <p>SCISSORS</p>
+                </div>
+            </div>
+            <p id="action">CHOOSE!</p>
+        </div>
+        <footer>Made by : Muhammad Afia</footer>
+        <script src="app.js"></script>
+    </body>
+</html>
